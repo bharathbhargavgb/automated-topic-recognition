@@ -1,4 +1,5 @@
 import MySQLdb
+# to list distinct list of categories
 
 db = MySQLdb.connect("localhost","root","gb96bhargav","categorytree" )
 cursor = db.cursor()
